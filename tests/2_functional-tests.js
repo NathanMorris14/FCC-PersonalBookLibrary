@@ -179,7 +179,7 @@ suite('Functional Tests', function() {
         .delete("/api/books/" + bookId)
         .end(function (err, res) {
           assert.equal(res.status, 200);
-          assert.equal(res.text, "delete successful");
+          assert.equal(res.text, "complete delete successful");
           
         });
         done();
