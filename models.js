@@ -9,7 +9,9 @@ const BookSchema = new Schema({
     commentcount: {
         type: Number, default: 0
     },
-    comments: String
+    comments: 
+        Array
+    
 
 });
 
